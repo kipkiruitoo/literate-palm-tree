@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".CustomerLoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="Boda"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:textSize="60sp"
+        android:gravity="center"
+
+        />
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:hint="Enter Email"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:inputType="textEmailAddress"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="Enter Password"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:inputType="textPassword"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:text="Login"
+            android:layout_margin="5dp"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registration"
+            android:text="Register"
+            android:layout_margin="5dp"
+
+            />
+    </LinearLayout>
+</LinearLayout>
